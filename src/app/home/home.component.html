@@ -1,0 +1,9 @@
+<app-nav></app-nav>
+<h3>Trending this week</h3>
+<ul *ngIf='trendingList' class="trending-list">
+    <li *ngFor='let item of (trendingList?.results)'>
+        <div>
+            <img src="//image.tmdb.org/t/p/w220_and_h330_face/{{item.poster_path}}" alt="{{item.title}} poster">
+        </div>
+    </li>
+</ul>

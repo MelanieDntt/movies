@@ -1,0 +1,14 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    ul {
+        padding-inline-start: 0 !important;
+        display: flex;
+        flex-direction: row;
+        li {
+            list-style: none;
+            margin: 20px;
+        }
+    }
+}
